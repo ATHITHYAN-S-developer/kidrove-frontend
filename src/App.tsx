@@ -346,11 +346,11 @@ function App() {
               <div>
                 <h4 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider mb-3">Quick Links</h4>
                 <ul className="space-y-2 text-sm font-semibold text-slate-500">
-                  <li><Link to="/about" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">About Us</Link></li>
+                  <li><Link to="/about" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">About Us</Link></li>
                   <li><button onClick={() => scrollToSection('blogs-container')} className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">Blog</button></li>
-                  <li><Link to="/contact" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">Contact Us</Link></li>
+                  <li><Link to="/contact" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">Contact Us</Link></li>
                   <li><button onClick={() => scrollToSection('faq-container')} className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">FAQs</button></li>
-                  <li><Link to="/summer-2026" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">Partner with Us</Link></li>
+                  <li><Link to="/summer-2026" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors bg-transparent border-none p-0 cursor-pointer">Partner with Us</Link></li>
                 </ul>
               </div>
 
@@ -358,8 +358,8 @@ function App() {
               <div>
                 <h4 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider mb-3">Programs</h4>
                 <ul className="space-y-2 text-sm font-semibold text-slate-500">
-                  <li><Link to="/activities" className="hover:text-cyan-500 transition-colors">Student Program</Link></li>
-                  <li><Link to="/summer-2026" className="hover:text-cyan-500 transition-colors">Partnerships</Link></li>
+                  <li><Link to="/activities" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Student Program</Link></li>
+                  <li><Link to="/summer-2026" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Partnerships</Link></li>
                 </ul>
               </div>
 
@@ -367,8 +367,8 @@ function App() {
               <div>
                 <h4 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider mb-3">Teach</h4>
                 <ul className="space-y-2 text-sm font-semibold text-slate-500">
-                  <li><Link to="/contact?subject=Teach%20as%20Organization" className="hover:text-cyan-500 transition-colors">Teach as Organization</Link></li>
-                  <li><Link to="/contact?subject=Teach%20as%20Individual" className="hover:text-cyan-500 transition-colors">Teach as Individual</Link></li>
+                  <li><Link to="/contact?subject=Teach%20as%20Organization" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Teach as Organization</Link></li>
+                  <li><Link to="/contact?subject=Teach%20as%20Individual" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Teach as Individual</Link></li>
                 </ul>
               </div>
 
@@ -378,10 +378,10 @@ function App() {
             <div className="md:col-span-3">
               <h4 className="text-sm font-extrabold text-slate-800 uppercase tracking-wider mb-3">Categories</h4>
               <ul className="space-y-2 text-sm font-semibold text-slate-500">
-                <li><Link to="/activities?category=venues" className="hover:text-cyan-500 transition-colors">Afterschool Activities</Link></li>
-                <li><Link to="/activities?category=culture" className="hover:text-cyan-500 transition-colors">Arts and Crafts</Link></li>
-                <li><Link to="/activities?category=venues" className="hover:text-cyan-500 transition-colors">Baby & Toddler</Link></li>
-                <li><Link to="/activities" className="hover:text-cyan-500 transition-colors">Birthday Deals</Link></li>
+                <li><Link to="/activities?category=venues" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Afterschool Activities</Link></li>
+                <li><Link to="/activities?category=culture" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Arts and Crafts</Link></li>
+                <li><Link to="/activities?category=venues" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Baby & Toddler</Link></li>
+                <li><Link to="/activities" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-500 transition-colors">Birthday Deals</Link></li>
               </ul>
             </div>
 
