@@ -447,7 +447,7 @@ function App() {
                   <button 
                     type="submit"
                     disabled={newsletterLoading}
-                    className="w-full bg-[#FBC4CE] hover:bg-[#F2AEB9] disabled:bg-slate-200 text-white font-extrabold text-xs py-3 rounded-xl transition-all active:scale-98 shadow-sm cursor-pointer mt-1 border-none"
+                    className="w-full bg-rose-500 hover:bg-rose-600 disabled:bg-slate-200 text-white font-extrabold text-xs py-3 rounded-xl transition-all active:scale-98 shadow-sm cursor-pointer mt-1 border-none"
                   >
                     {newsletterLoading ? 'Subscribing...' : 'Subscribe'}
                   </button>
